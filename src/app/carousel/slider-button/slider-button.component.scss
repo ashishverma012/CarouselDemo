@@ -1,0 +1,30 @@
+:host-context(.next){
+    button{
+      position: relative;
+      left: 65%;
+      top: 50px;
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      padding: 0px 12px;
+      font-size: 28px;
+      cursor: pointer;
+      height:38px;
+      border-color: #5d5b5b;
+    }
+  }
+  :host-context(.prev){
+    button{
+      position: relative;
+      left: 27%;
+      top: 50px;
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      padding: 0px 12px;
+      font-size: 28px;
+      cursor: pointer;
+      height:38px;
+      border-color: #5d5b5b;
+    }
+  }
