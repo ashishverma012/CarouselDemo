@@ -9,6 +9,7 @@ import { SliderButtonComponent } from './carousel/slider-button/slider-button.co
 import { SlideComponent } from './carousel/slide/slide.component';
 import { SliderHeaderComponent } from './carousel/slider-header/slider-header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CarouselComponent,
     SliderButtonComponent,
     SlideComponent,
-    SliderHeaderComponent
+    SliderHeaderComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

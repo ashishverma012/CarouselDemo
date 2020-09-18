@@ -1,8 +1,8 @@
 :host-context(.next){
     button{
       position: relative;
-      left: 65%;
-      top: 50px;
+      left: 69%;
+      top: 24px;
       background-color: black;
       color: white;
       border-radius: 50%;
@@ -16,8 +16,8 @@
   :host-context(.prev){
     button{
       position: relative;
-      left: 27%;
-      top: 50px;
+      left: 23%;
+      top: 24px;
       background-color: black;
       color: white;
       border-radius: 50%;
@@ -26,5 +26,18 @@
       cursor: pointer;
       height:38px;
       border-color: #5d5b5b;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    :host-context(.next){
+      button{
+        left: 76%;
+      }
+    }
+    :host-context(.prev){
+      button{
+        left: 7%;
+      }
     }
   }

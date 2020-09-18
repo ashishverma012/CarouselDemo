@@ -1,15 +1,15 @@
 :host-context(.textStyle){
     position: relative;
-    left: 25%;
+    left: 19%;
     font-size: 19px;
-    top:25px;
-    width: 9%;
+    top:16px;
+    width: 12%;
     display: inline-block;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     :host-context(.textStyle){
-        left: 10%;
-        width: 15%;
+        left: 4%;
+        width: 20%;
     }
 }
 @media only screen and (max-width: 767px) {
